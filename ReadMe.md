@@ -249,7 +249,7 @@ const filter = ref<PaginationFilter>({
 });
 
 ```
-
+### main api integreat function
 ```
  try {
     const orgJourneyApiResponse = await $orgUserApiClient
@@ -262,28 +262,6 @@ const filter = ref<PaginationFilter>({
   }
   
   ```
-
-
-### For unserstand full code axios and useAsnycData
-
-```
-
-const { data, pending, error } = await useAsyncData('posts', async () => {
-  try {
-    const response = await $axios.get('https://jsonplaceholder.typicode.com/posts');
-    return response.data;
-  } catch (err) {
-    console.error(err);
-    throw new Error('Failed to fetch posts');
-  }
-});
-
-```
-
-
-
-
-
 
 
 
@@ -332,8 +310,3 @@ if (error.value) {
 </script>
 ```
 
-
-
-
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
