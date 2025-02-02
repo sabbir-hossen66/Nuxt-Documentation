@@ -68,7 +68,6 @@ export default function useApi() {
 ✅ এখন Vue কম্পোনেন্টে ব্যবহার করুন:
 
 ```
-<script setup>
 import useApi from '@/composables/useApi';
 
 const { getPosts } = useApi();
@@ -77,16 +76,9 @@ const posts = ref([]);
 onMounted(async () => {
   posts.value = await getPosts();
 });
-</script>
 
-<template>
-  <div>
-    <h1>Posts</h1>
-    <ul>
-      <li v-for="post in posts" :key="post.id">{{ post.title }}</li>
-    </ul>
-  </div>
-</template>
+
+
 ```
 
 ✅ **Axios** ব্যবহার করলে `useNuxtApp().$axios` দিয়ে API কল করা যায়।  
@@ -127,10 +119,10 @@ export default defineNuxtConfig({
 ##### Using `baseURL` with `useFetch()`.
 
 ```
-<script setup>
+
 const config = useRuntimeConfig();
 const { data: posts, pending, error } = useFetch(`${config.public.apiBase}/posts`);
-</script>
+
 ```
 
 🔍 **Code Explanation:**
@@ -214,7 +206,7 @@ const { data, pending, error } = await useAsyncData('posts', async () => {
 
 ```
 
-<script setup>
+
 import { ref } from 'vue';
 
 const newPost = ref({
@@ -231,14 +223,9 @@ const createPost = async () => {
     console.error('Error creating post:', error);
   }
 };
-</script>
 
-<template>
-  <div>
-    <h1>Create Post</h1>
-    <button @click="createPost">Create</button>
-  </div>
-</template>
+
+
 
 ```
 
@@ -280,7 +267,7 @@ const filter = ref<PaginationFilter>({
 ### For unserstand full code axios and useAsnycData
 
 ```
-<script setup>
+
 const { data, pending, error } = await useAsyncData('posts', async () => {
   try {
     const response = await $axios.get('https://jsonplaceholder.typicode.com/posts');
@@ -290,18 +277,7 @@ const { data, pending, error } = await useAsyncData('posts', async () => {
     throw new Error('Failed to fetch posts');
   }
 });
-</script>
 
-<template>
-  <div>
-    <h1>Posts</h1>
-    <div v-if="pending">Loading...</div>
-    <div v-else-if="error">Error: {{ error.message }}</div>
-    <ul v-else>
-      <li v-for="post in data" :key="post.id">{{ post.title }}</li>
-    </ul>
-  </div>
-</template>
 ```
 
 
