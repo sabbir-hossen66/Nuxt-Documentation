@@ -317,7 +317,7 @@ if (error.value) {
  ![Alt Text](https://i.ibb.co.com/Hp7MLWHT/Capture4.png)
 
 
-  ![Alt Text](https://i.ibb.co.com/Hp7MLWHT/Capture4.png)
+  ![Alt Text](https://i.ibb.co.com/xSkthzJY/Capture5.png)
 
 
   * দুইটা বাটন রাখবেন (increase,decrease).বাটন দুইটাতে ক্লিক করলে মান বাড়বে কমবে একই সাথে দুইটা কম্পোনেন্ট থেকে।
