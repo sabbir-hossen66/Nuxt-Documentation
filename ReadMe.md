@@ -334,17 +334,27 @@ if (error.value) {
 ![Alt Text](https://i.ibb.co.com/p6J0Qrcw/Capture1.png)
 
 ### Task-3
-- Category 1
+ ৩ টি ক্যাটাগরি লিস্ট থাকবে---
+- Category 1  এ থাকবে নিচের টাস্ক গুলো 
     - C1 Task1
     - C1 Task2
     - C1 Task3
-- Category 2
+- Category 2 এ থাকবে নিচের টাস্ক গুলো 
     - C2 Task1
     - C2 Task2
-- Category 3
+- Category 3 টাস্ক থাকবে না।
 
 
 ক্যাটাগরি লিস্ট থেকে একটা ক্যাটাগরি সিলেক্ট করলে তার নিচে সিলেক্টেড টাস্ক দেখাবে, সিলেক্টেড টাস্ক সিলেক্ট করে সাবমিসন বাটনে ক্লিক করলে সাবমিট হবে, পারসিস্ট করে rekhe dite hobe. যেন রিলোড দিলেও ডাটা না চলে যায়।।.
 
 
 ![Alt Text](https://i.ibb.co.com/bRXP326t/Capture.png)
+
+
+jokhon - টাস্ক সিলেক্ট করা হবে তখন সাবমিট বাটন দেখাবে এন্ড সাবমিট করা হলে টেম্পলেট গুলো ফাকা হয় পুনরায় আগের অবস্তানে ফেরত আসবে। এবং একটী alert dekhabe. বাটন দেখাবে না, সাবমিসনের পরে।
+
+![Alt Text](https://i.ibb.co.com/m5HyPvFN/Captureqq.png)
+
+
+
+![Alt Text](https://i.ibb.co.com/TyCHzYn/jjj.png)
