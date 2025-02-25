@@ -312,11 +312,23 @@ if (error.value) {
 
 #### Task-1 
   * দুইটা বাটন রাখবেন (increase,decrease). বাটন দুইটাতে ক্লিক করলে মান বাড়বে কমবে
+
+
+ ![Alt Text](https://i.ibb.co.com/Hp7MLWHT/Capture4.png)
+
+
+  ![Alt Text](https://i.ibb.co.com/xSkthzJY/Capture5.png)
+
+
   * দুইটা বাটন রাখবেন (increase,decrease).বাটন দুইটাতে ক্লিক করলে মান বাড়বে কমবে একই সাথে দুইটা কম্পোনেন্ট থেকে।
   * উপরিউক্ত কাজ গুলো কম্পোজাবল ব্যবহার করে করবেন.পারসিস্ট করে rekhe dite hobe. যেন রিলোড দিলেও ডাটা না চলে যায়।।.
   
+ ![Alt Text](https://i.ibb.co.com/p6J0Qrcw/Capture1.png)
+  
 #### Task-2
 একটা টাস্ক্লিস্ট থেকে একজন ইউজার একাদিক টাস্ক সিলেক্ট করতে পারবে এন্ড সিলেক্টেড টাস্ক ড্রাগবল করা যাবে,এডিট করা যাবে,ডিলিট করা যাবে - এক্কেত্রে পিনিয়া স্টোর ব্যবহার করে করবেন। পারসিস্ট করে rekhe dite hobe. যেন রিলোড দিলেও ডাটা না চলে যায়।।.
+
+![Alt Text](https://i.ibb.co.com/p6J0Qrcw/Capture1.png)
 
 ### Task-3
 - Category 1
