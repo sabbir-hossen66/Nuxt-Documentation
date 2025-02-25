@@ -334,7 +334,7 @@ if (error.value) {
 ![Alt Text](https://i.ibb.co.com/p6J0Qrcw/Capture1.png)
 
 ### Task-3
- ৩ টি ক্যাটাগরি লিস্ট থাকবে---
+ ৩ টি ক্যাটাগরি থাকবে---
 - Category 1  এ থাকবে নিচের টাস্ক গুলো 
     - C1 Task1
     - C1 Task2
